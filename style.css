@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+header{ /* Todo o HTML */
+    background-color: #4ef145;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{ /* Todo o HTML */
+    margin-right: 40px;
+}
+main{ /* Todo o HTML */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+body{ /* Todo o HTML */
+    margin: 0;
+    padding: 0;
+}
+h2{ /* Todo o HTML */
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+h3{ /* Todo o HTML */
+    font-family: "Oswald", sans-serif;
+}
+h4{
+    font-family: "Oswald", sans-serif;
+}
+a{ /* Todo o HTML */
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+p{ /* Todo o HTML */
+    font-family: "Open Sans", sans-serif;
+}
+.p1{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#img1{ /* Todo o HTML */
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+    padding-left: 30px;
+}
+.d1{ /* Todo o produtos */
+    display: flex;
+    flex-direction: column;
+}
+#d2{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+#d3{
+    padding-left: 10px;
+    padding-right: 15px;
+    box-shadow: 0px 0px 1px 1px rgb(37, 37, 37);
+}
+#form{
+    box-shadow: 0px 0px 1px 1px rgb(37, 37, 37);
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#form input{
+    margin-bottom: 5px;
+    border-color: gray; 
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+.pet1{ /* Toda a galeria */
+    border-radius: 20px;
+}
+.pp1{
+    width: 240px;
+    border-radius: 20px;
+}
+.desc{ /* Todo o index */
+    background-color: rgb(81, 201, 70);
+    border-radius: 5px;
+    margin: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: left;
+}
+#desc2{ /* Todo o index */
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    /* background-image: ; */
+}
+#desc22{ /* Todo o produtos */
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.ppet{ /* Toda a galeria */
+    display: flex;
+    justify-content: space-around;
+}
+.pet{ /* Toda a galeria */
+    padding-top: 100px;
+}
+.prod{ /* Todo o produtos */
+    display: flex;
+    align-items: end;
+    padding-bottom: 50px;
+}
+#sessoes{ /* Todo o index */
+    display: flex;
+}
+button{ /* Todo o HTML */
+    border-radius: 5px;
+    border-color: rgb(139, 212, 139);
+    background-color: rgb(139, 212, 139);
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    padding: 5px;
+    padding-right: 1px;
+}
+.b1{ /* Todo o produtos */
+    margin: 20px;
+}
+footer{ /* Todo o HTML */
+    background-color: rgb(12, 78, 12);
+    color:white;
+    font-size: 13px;
+    margin-top: 20px;
+    padding-top: 30px;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+}
+body::-webkit-scrollbar{ /* Todo o HTML */
+    width: 15px;
+}
+body::-webkit-scrollbar-track{ /* Todo o HTML */
+    background-color: rgb(255, 255, 255);
+}
+body::-webkit-scrollbar-thumb{ /* Todo o HTML */
+    background-color: rgb(30, 185, 30);
+    border-radius: 2px;
+}
